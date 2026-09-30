@@ -1,0 +1,34 @@
+# Python environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+credentials.json
+token.json
+*.pem
+*.key
+
+# Local student data and reproducible training artifacts
+data/*.csv
+models/*.pkl
+models/*.json
+models/*.csv
+
+# Notebook, logs, temporary files, and editor state
+.ipynb_checkpoints/
+*.log
+*.tmp
+*.bak
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
